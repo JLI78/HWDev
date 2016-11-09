@@ -85,7 +85,7 @@ def perimeter( base, height):
     
     
     #--------------------
-    return perim
+    return (base + 2.0 * height)
     
     
       
@@ -114,7 +114,7 @@ print(' you owe $ ' + str(total_with_tip))
 #Question: 2 - implement a function to calculate the tip, compare the script 
 # based  result whit the function based result to validate the function
 
-print('\n you owe $ ' + str(add_tip(total,tip_percent)))
+print(' you owe $ ' + str(add_tip(total,tip_percent)))
 
 
 
@@ -138,5 +138,6 @@ print (' the hyp value is ' + str(hyp(side_1,side_2)))
 #test with your own values, submit the answer using ()
 
 the_base,the_height = 2,3
-print(' the mean value is ' + str(perimeter(the_base,the_height)))
+print(' the perimeter value is ' + str(perimeter(the_base,the_height)))
 
+print('...Homework completed...')
