@@ -42,8 +42,8 @@ def hyp(leg1,leg2):
     # ---------------
     # add your code here. 
     # use "hyp" as the calculation variable
-     
     
+    hyp = (leg1**2 + leg2**2)**0.5 
     
     # ---------------
     return hyp
@@ -122,15 +122,14 @@ print('\n you owe $ ' + str(add_tip(total,tip_percent)))
 #Question: 3 - implement a function to calculate mean of 3 variables'
 #test with your own values, submit the answer using (12.2, 13.3, 14.4)
 
-#12.2, 13.3, 14.4
-a,b,c = 2,2,4
+a,b,c = 12.2, 13.3, 14.4
 print (' the mean value is ' + str(mean(a,b,c)))
 
 #-----------------------------------------------------------------------------
 #Question: 4 - implement a function to calculate the hyp of a triangle'
 #test with your own values, submit the answer using (10,20)
 
-side_1,side_2  = 2,3
+side_1,side_2  = 3,4
 print (' the hyp value is ' + str(hyp(side_1,side_2)))
 
 
